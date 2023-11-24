@@ -51,7 +51,7 @@ class RegistrationForm extends Component {
     )
   }
 
-  onBlurLastName = () => {
+  onBlurFirstName = () => {
     const isValidFirstName = this.isValidFirstName()
 
     this.setState({showFirstNameError: !isValidFirstName})
